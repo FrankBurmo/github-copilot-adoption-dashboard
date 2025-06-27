@@ -2,6 +2,8 @@
 
 A React-based dashboard for tracking GitHub Copilot adoption metrics for enterprises.
 
+🔗 **Live Demo**: https://frankburmo.github.io/github-copilot-adoption-dashboard/
+
 ## Overview
 
 This application provides a clean, simple interface for viewing GitHub Copilot usage metrics via the GitHub API. Users can input their GitHub token and enterprise name to fetch and display adoption metrics.
@@ -24,10 +26,17 @@ This application provides a clean, simple interface for viewing GitHub Copilot u
 
 ## Setup and Installation
 
+### Using the Live Demo
+
+The easiest way to use this dashboard is through the live demo at:
+https://frankburmo.github.io/github-copilot-adoption-dashboard/
+
+### Local Development
+
 1. Clone the repository:
    ```bash
-   git clone https://github.com/FrankBurmo/copilot-metrics-frontend.git
-   cd copilot-metrics-frontend
+   git clone https://github.com/FrankBurmo/github-copilot-adoption-dashboard.git
+   cd github-copilot-adoption-dashboard
    ```
 
 2. Install dependencies:
@@ -40,7 +49,17 @@ This application provides a clean, simple interface for viewing GitHub Copilot u
    npm start
    ```
 
-   The application will open in your browser at `http://localhost:3000`.
+   The application will open in your browser at `http://localhost:5173`.
+
+### Building for Production
+
+To build the application for production:
+
+```bash
+npm run build
+```
+
+The built files will be in the `dist` folder.
 
 ## Usage
 
@@ -69,6 +88,19 @@ This application uses the GitHub Copilot Metrics API:
 - `npm run build` - Builds the app for production
 - `npm run preview` - Preview the production build locally
 - `npm run lint` - Run ESLint to check code quality
+
+## Deployment
+
+This application is automatically deployed to GitHub Pages whenever changes are pushed to the main branch. The deployment is handled by GitHub Actions and the live version is available at:
+
+https://frankburmo.github.io/github-copilot-adoption-dashboard/
+
+### GitHub Pages Setup
+
+The application is configured for GitHub Pages deployment with:
+- Vite base path set to `/github-copilot-adoption-dashboard/`
+- GitHub Actions workflow that builds and deploys the app
+- No server-side components required (client-side only)
 
 ## Technology Stack
 
