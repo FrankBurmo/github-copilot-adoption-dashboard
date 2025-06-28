@@ -2,6 +2,7 @@
   "name": "copilot-metrics-frontend",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "dependencies": {
     "@types/react": "^19.1.8",

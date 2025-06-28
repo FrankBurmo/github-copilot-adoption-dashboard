@@ -116,3 +116,11 @@ The application is configured for GitHub Pages deployment with:
 - GitHub tokens are handled securely and never stored
 - All API calls are made directly from the browser to GitHub
 - No backend server required
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
