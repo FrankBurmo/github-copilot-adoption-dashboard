@@ -8,6 +8,8 @@ A React-based dashboard for tracking GitHub Copilot adoption metrics for enterpr
 
 This application provides a clean, simple interface for viewing GitHub Copilot usage metrics via the GitHub API. Users can input their GitHub token and enterprise name to fetch and display adoption metrics.
 
+![image](https://github.com/user-attachments/assets/ae0a30fe-412d-4fbc-ba90-6c0afa34df15)
+
 ## Features
 
 - **Token-based Authentication**: Secure input for GitHub personal access tokens
