@@ -73,7 +73,10 @@ The built files will be in the `dist` folder.
 
 ## API Information
 
-This application uses the GitHub Copilot Metrics API:
+This application uses the GitHub Copilot Metrics API. You have to enable this setting in your admin panel for your enterprise:
+![image](https://github.com/user-attachments/assets/d4a5aa72-96c8-4ab6-b17a-2d50191773a8)
+
+Documentation:
 - Endpoint: `https://api.github.com/enterprises/{enterprise}/copilot/metrics`
 - Documentation: https://docs.github.com/en/enterprise-cloud@latest/rest/copilot/copilot-metrics?apiVersion=2022-11-28
 - API Version: 2022-11-28
