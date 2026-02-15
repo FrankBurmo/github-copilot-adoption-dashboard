@@ -5,9 +5,13 @@ updates:
     schedule:
       interval: "monthly"
     groups:
-      all:
-        patterns:
-          - "*"
+      major:
+        update-types:
+          - "major"
+      minor-patch:
+        update-types:
+          - "minor"
+          - "patch"
   - package-ecosystem: "github-actions" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
