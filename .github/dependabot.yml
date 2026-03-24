@@ -1,10 +1,13 @@
 version: 2
 updates:
-  - package-ecosystem: "npm" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "npm"
+    directory: "/"
     schedule:
       interval: "monthly"
     groups:
+      eslint:
+        patterns:
+          - "*eslint*"
       major:
         update-types:
           - "major"
@@ -12,8 +15,8 @@ updates:
         update-types:
           - "minor"
           - "patch"
-  - package-ecosystem: "github-actions" # See documentation for possible values
-    directory: "/" # Location of package manifests
+  - package-ecosystem: "github-actions"
+    directory: "/"
     schedule:
       interval: "monthly"
           
