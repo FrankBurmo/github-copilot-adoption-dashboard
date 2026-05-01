@@ -8,10 +8,10 @@
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "chart.js": "^4.5.1",
-    "react": "^19.2.4",
+    "react": "^19.2.5",
     "react-chartjs-2": "^5.3.1",
-    "react-dom": "^19.2.4",
-    "typescript": "^6.0.2"
+    "react-dom": "^19.2.5",
+    "typescript": "^6.0.3"
   },
   "scripts": {
     "start": "vite",
@@ -39,15 +39,15 @@
     "@eslint/js": "^10.0.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
-    "@typescript-eslint/eslint-plugin": "^8.58.1",
+    "@typescript-eslint/eslint-plugin": "^8.59.1",
     "@typescript-eslint/parser": "^8.58.1",
     "@vitejs/plugin-react": "^6.0.1",
-    "@vitest/ui": "^4.0.18",
-    "eslint": "^10.2.0",
+    "@vitest/ui": "^4.1.5",
+    "eslint": "^10.2.1",
     "eslint-plugin-react-refresh": "^0.5.2",
-    "globals": "^17.4.0",
-    "jsdom": "^29.0.2",
-    "vite": "^8.0.7",
+    "globals": "^17.5.0",
+    "jsdom": "^29.1.1",
+    "vite": "^8.0.10",
     "vitest": "^4.0.6"
   }
 }
